@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Drawing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <h1>YOU MATTER<br> NIGGA</h1>
+    <button id="pencil" class="icon-pencil">✏️</button>
+    <img src="Group 2.svg" alt="">
+    <div id="canvasContainer" class="hidden">
+        <div id="colorPalette" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 101;">
+            <button class="colorBtn" style="background-color: #e03e1a;"></button>
+            <button class="colorBtn" style="background-color: #f79722;"></button>
+            <button class="colorBtn" style="background-color: #f3c11b;"></button>
+            <button class="colorBtn" style="background-color: #0c8be8;"></button>
+            <button class="colorBtn" style="background-color: #14ae5c;"></button>
+            <button class="colorBtn" style="background-color: #8a38f5;"></button>
+        </div>
+      <canvas id="drawingCanvas"></canvas>
+      <button id="doneBtn">Done</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
