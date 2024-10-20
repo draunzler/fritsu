@@ -20,10 +20,11 @@ h1{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 5rem;
+    max-height: 5rem;
 }
 .ad-in-article{
     position: absolute;
+    max-width: 5rem;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
