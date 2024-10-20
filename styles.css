@@ -15,14 +15,14 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.ad-leaderboard{
-    position: fixed;
+#ad-leaderboard{
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     max-height: 5rem;
 }
-.ad-in-article{
+#ad-in-article{
     position: absolute;
     max-width: 5rem;
     top: 50%;
